@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap-CSS -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous">
+    <!--Lettertype Google-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="stylesheet.css">
+          <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+          <!--jQuery-->
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+              <script>
+              $(document).ready(function(){
+                $("#hide").click(function(){
+                  $("#rendier").hide();
+                });
+                $("#show").click(function(){
+                  $("#rendier").show();
+                });
+              });
+              </script>
+              <!--Javascript-->
+              <script>
+                function myFunction3() {
+                  var x = document.getElementById("gedicht");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+              </script>
+              <script>
+                function myFunction2() {
+                  var x = document.getElementById("kerst2");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+              </script>
+        <title>Stephan Dobbelaar</title>
+  </head>
+  <body onLoad="window.alert('Welkom op deze pagina!')">
+    <div class="container-sm">
+      <header><h1>Merry Christmas</h1></header>
+          <div class="een">
+            <div id="rendier">
+              <figure>
+                <img src="kerstslee.gif" alt="arreslee" title="arreslee">
+              </figure>
+            </div>
+            <button id="show">Laten Zien</button>
+            <button id="hide">Verbergen</button>
+          </div>
+          <div class="vijf">
+            <p id="gedicht">Ik vond een sterretje voor de deur
+                Het had een glinsterende gele kleur.<br>
+                Ik nam het voorzichtig op en zei:
+                “dit jaar krijg jij dit sterretje van mij”
+                Ik wens je een<br> jaar vol vreugde en zonneschijn
+                Een jaar waarin verdriet en zorgen twee vreemden zijn.<br>
+                Een jaar waarin vrienden komen en nooit gaan
+                En waarin geen plaats is voor een traan!<br><br>
+                Ik wens je mooie en gelukkige feestdagen toe, en
+                een gelukkig 2023!</p>
+            <button type="button" onclick="myFunction3()">Klik hier!!!</button>
+          </div>
+        <div id="kerst">
+          <div id="kerst2">
+            <div class="nul">
+              <figure>
+                <img src="kerst1.jpg" alt="kerst" title="kerst">
+              </figure>
+            </div>
+            <div class="twee">
+              <figure>
+                <img src="kerst6.jpg" alt="kerst" title="kerst">
+                <img src="kerst7.jpg" alt="kerst" title="kerst">
+              </figure>
+            </div>
+            <div class="drie">
+              <figure>
+                <img src="kerst8.jpg" alt="kerst" title="kerst">
+                <img src="kerst9.jpg" alt="kerst" title="kerst">
+                <img src="kerst10.jpg" alt="kerst" title="kerst">
+              </figure>
+            </div>
+            <div class="vier">
+              <figure>
+                <img src="kerst2.jpg" alt="kerst" title="kerst">
+                <img src="kerst3.jpg" alt="kerst" title="kerst">
+                <img src="kerst4.jpg" alt="kerst" title="kerst">
+                <img src="kerst5.jpg" alt="kerst" title="kerst">
+              </figure>
+            </div>
+          </div>
+            <button type="button" onclick="myFunction2()">Klik hier!!!</button>
+        </div>
+        <footer>
+          <div class="klokje">
+            <img src="klokje.jpg" alt="klokje" title="klokje">
+          </div>
+          © Stephan Dobbelaar<br> 22-12-2022
+        </footer>
+        </div>
+    <!-- Bootstrap-JavaScript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
